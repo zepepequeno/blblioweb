@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html lang="es" data-bs-theme="light">
+
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BiblioWeb | Inicio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<style>
+
+</style>
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top py-3">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-4 text-primary" href="index.html">
+            <i class="bi bi-book-half me-2"></i>BiblioWeb
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuNavegacion">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNavegacion">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-medium">
+
+                <li class="nav-item">
+                    <a class="nav-link active text-primary" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/acerca-de.html">Acerca de</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<section class="container py-5 my-4">
+
+    <div class="row align-items-center g-5">
+
+
+        <div class="col-lg-6 text-start">
+
+            <h1 class="display-4 fw-bold text-dark mb-3">
+
+                Encuentra el libro que buscas
+                <span class="text-primary">más fácil de leer.</span>
+
+            </h1>
+
+            <p class="lead text-muted mb-4">
+
+                El sitio de referencia ideal para explorar, descubrir y solicitar tus lecturas favoritas en la BiblioWeb.
+
+            </p>
+
+            <div class="input-group input-group-lg shadow-sm rounded-pill overflow-hidden border">
+
+                <input type="text" id="inputBusqueda"
+                    class="form-control border-0 px-4 py-3"
+                    placeholder="Encuentra tu libro favorito aquí...">
+
+                <button class="btn btn-primary px-4" type="button" id="btnBuscar">
+                    Buscar
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-6 text-center position-relative">
+
+            <img src="https://picsum.photos/id/24/600/450"
+                class="img-fluid rounded-4 shadow-lg"
+                alt="Libros BiblioWeb">
+
+
+            <div class="position-absolute top-0 start-0 translate-middle bg-white p-3 rounded-circle shadow d-none d-md-block">
+
+                <i class="bi bi-lightbulb text-warning fs-4"></i>
+
+            </div>
+
+            <div class="position-absolute bottom-0 end-0 translate-middle bg-white p-3 rounded-circle shadow d-none d-md-block">
+
+                <i class="bi bi-award text-success fs-4"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="container py-5">
+
+    <div class="row text-center mb-5">
+
+        <div class="col-12">
+
+            <h2 class="fw-bold text-dark">
+                Libros Destacados
+            </h2>
+
+            <p class="text-muted">
+                Explora los títulos más populares recomendados por nuestra comunidad.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="row g-4">
+
+
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+                <img src="https://picsum.photos/id/1073/400/250"
+                    class="card-img-top"
+                    alt="Libro 1">
+
+                <div class="card-body d-flex flex-column p-4">
+
+                    <span class="badge bg-primary-subtle text-primary mb-2 align-self-start">
+                        Programación
+                    </span>
+
+                    <h5 class="card-title fw-bold text-dark">
+                        Clean Code en la práctica
+                    </h5>
+
+                    <p class="card-text text-muted small flex-grow-1">
+                        Aprende los fundamentos para escribir código limpio, legible y mantenible en proyectos reales.
+                    </p>
+
+                    <a href="#" class="btn btn-outline-primary mt-3 rounded-pill">
+                        Ver detalles
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+                <img src="https://picsum.photos/id/364/400/250"
+                    class="card-img-top"
+                    alt="Libro 2">
+
+                <div class="card-body d-flex flex-column p-4">
+
+                    <span class="badge bg-success-subtle text-success mb-2 align-self-start">
+                        Diseño Web
+                    </span>
+
+                    <h5 class="card-title fw-bold text-dark">
+                        Interfaces Modernas con CSS
+                    </h5>
+
+                    <p class="card-text text-muted small flex-grow-1">
+                        Domina Flexbox, Grid y las mejores prácticas de diseño visual con un enfoque moderno.
+                    </p>
+
+                    <a href="#" class="btn btn-outline-primary mt-3 rounded-pill">
+                        Ver detalles
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+                <img src="https://picsum.photos/id/20/400/250"
+                    class="card-img-top"
+                    alt="Libro 3">
+
+                <div class="card-body d-flex flex-column p-4">
+
+                    <span class="badge bg-warning-subtle text-dark mb-2 align-self-start">
+                        Lógica
+                    </span>
+
+                    <h5 class="card-title fw-bold text-dark">
+                        Algoritmos desde Cero
+                    </h5>
+
+                    <p class="card-text text-muted small flex-grow-1">
+                        Desarrolla el pensamiento computacional paso a paso con estructuras de control y lógica pura.
+                    </p>
+
+                    <a href="#" class="btn btn-outline-primary mt-3 rounded-pill">
+                        Ver detalles
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="bg-light py-5 border-top border-bottom">
+
+    <div class="container">
+
+        <div class="row g-4 align-items-stretch">
+
+
+            <!-- SERVICIOS -->
+
+            <div class="col-lg-7">
+
+                <h3 class="fw-bold text-dark mb-3">
+                    Nuestros Servicios
+                </h3>
+
+                <p class="text-muted mb-4">
+                    Facilitamos el acceso al conocimiento técnico con herramientas pensadas para tu aprendizaje.
+                </p>
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+
+                        <div class="p-3 bg-white rounded-4 shadow-sm h-100">
+
+                            <i class="bi bi-laptop text-primary fs-3 mb-2 d-block"></i>
+
+                            <h6 class="fw-bold text-dark">
+                                Préstamo Digital 24/7
+                            </h6>
+
+                            <p class="text-muted small mb-0">
+                                Acceso inmediato a guías, documentación y libros técnicos desde cualquier dispositivo.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-5">
+
+                <div class="p-4 bg-white rounded-4 shadow-sm h-100 d-flex flex-column justify-content-between border-start border-primary border-4">
+
+                    <div>
+
+                        <h4 class="fw-bold text-dark mb-3">
+
+                            <i class="bi bi-clock text-primary me-2"></i>
+                            Horarios de Atención
+
+                        </h4>
+
+                        <ul class="list-unstyled text-muted mb-4">
+
+                            <li class="d-flex justify-content-between py-2 border-bottom">
+
+                                <span>Lunes a Viernes:</span>
+
+                                <span class="fw-semibold text-dark">
+                                    7:00 AM - 9:00 PM
+                                </span>
+
+                            </li>
+
+                            <li class="d-flex justify-content-between py-2 border-bottom">
+
+                                <span>Sábados:</span>
+
+                                <span class="fw-semibold text-dark">
+                                    8:00 AM - 4:00 PM
+                                </span>
+
+                            </li>
+
+                            <li class="d-flex justify-content-between py-2">
+
+                                <span>Plataforma Web:</span>
+
+                                <span class="badge bg-success-subtle text-success">
+                                    Disponible 24/7
+                                </span>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <a href="pages/servicios.html"
+                        class="btn btn-1 w-100 rounded-pill py-2 fw-medium">
+
+                        Explorar todos los servicios
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="bg-dark text-white py-5 w-100">
+
+<div class="container-fluid px-4">
+
+    <div class="row justify-content-center text-center">
+
+        <!-- INFORMACIÓN DE BIBLIOWEB -->
+        <div class="col-12 mb-4">
+
+            <h5 class="fw-bold text-primary mb-2">
+                <i class="bi bi-book-half me-2"></i>BiblioWeb
+            </h5>
+
+            <p class="text-white-50 small mb-0">
+                Tu plataforma de referencia para explorar y gestionar lecturas técnicas en comunidad.
+            </p>
+
+        </div>
+
+      <div class="col-12">
+
+            <ul class="list-inline mb-3">
+
+                <li class="list-inline-item">
+                    <a href="index.html" class="text-white-50 text-decoration-none">
+                        Inicio
+                    </a>
+                </li>
+
+                <li class="list-inline-item mx-3">
+                    <a href="pages/servicios.html" class="text-white-50 text-decoration-none">
+                        Servicios
+                    </a>
+                </li>
+
+                <li class="list-inline-item">
+                    <a href="pages/acerca-de.html" class="text-white-50 text-decoration-none">
+                        Acerca de
+                    </a>
+                </li>
+
+            </ul>
+
+            <p class="text-white-50 small mb-0">
+                &copy; 2026 BiblioWeb - Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/scripts.js"></script>
+
+
+</body> </html>
